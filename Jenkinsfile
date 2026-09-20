@@ -9,7 +9,7 @@ pipeline {
 
         stage('Git Checkout') {
             steps {
-                git url: 'https://github.com/nandishasr066/frontend', branch: 'main'
+                git url: 'https://github.com/nandishasr066/frontend.git', branch: 'main'
             }
         }
 
